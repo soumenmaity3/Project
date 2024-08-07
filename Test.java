@@ -16,11 +16,11 @@ class Test {
             }
             System.out.print("\n");
         }
-        for (int l = 1; l <= n; l++) {
-            for (int o = 1; o <= l; o++) {
+        for (int h = 1; h <= n; h++) {
+            for (int o = 1; o <= h; o++) {
                 System.out.print(" ");
             }
-            for (int m = 1; m <= 2 * (n - l) - 1; m++) {
+            for (int m = 1; m <= 2 * (n - h) - 1; m++) {
                 System.out.print("*");
             }
             System.out.print("\n");
