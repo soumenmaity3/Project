@@ -8,6 +8,7 @@ int main() {
     int randomNumber = rand();
     int count=0;
     int randomInRange = rand() % 100+1;
+    printf("This is a number choise game. Lets play.....");
     do{
       printf("\nEnter a number (0 to 100):- ");
       scanf("%d",&random);
