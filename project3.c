@@ -52,7 +52,6 @@ void pop(){
 }
 
 void display(){
-    // int n;
     if(top==-1){
         printf("Your stack is empty.");
     }
