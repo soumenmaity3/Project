@@ -51,7 +51,7 @@ class project5 {
         int ch;
         mystack M = new mystack();
         do {
-            
+
             System.out.println("-----------STACK manu-----------");
             System.out.println("1.PUSH\n2.POP\n3.DISPLAY\n4.EXIT");
             System.out.println("--------------------------------");
