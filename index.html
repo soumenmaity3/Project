@@ -10,8 +10,12 @@
         <h1>Number Guessing Game</h1>
         <p id="message">You have 10 chances to guess the number between 0 and 100.</p>
         <input type="number" id="guess" min="0" max="100">
-        <button onclick="checkGuess()">Submit</button>
+        <button id="submit" onclick="checkGuess()">Submit</button>
         <p id="result"></p>
+        <div id="play-again" style="display: none;">
+            <input type="text" id="play-again-input">
+            <button onclick="playAgain()">Submit</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
