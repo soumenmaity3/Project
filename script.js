@@ -107,7 +107,7 @@ function playAgain() {
         document.getElementById('play-again').style.display = 'none';
         document.getElementById('play-again-input').value = '';
         document.getElementById('guess').focus();
-        message.style.display = 'block'; // Show the message
+        message.style.display = 'block'; 
     } else if (playAgainInput === 'no') {
         document.getElementById('result').textContent = 'Thank you for playing!';
         document.getElementById('play-again').style.display = 'none';
