@@ -2,24 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Number Guessing Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="game">
         <h1>Number Guessing Game</h1>
-        <p id="initial-message">Let's play.......<br> Enter a number between 1 to 100</p>
-        <input type="number" id="guess" placeholder="Enter your guess">
+        <p id="message">You have 10 chances to guess the number between 0 and 100.</p>
+        <p id="hint">Hint: Try starting with 50!</p>
+        <input type="number" id="guess" min="0" max="100">
         <div id="buttons">
-            <button id="submit">Submit</button>
-            <button id="hint-button">Hint</button>
+            <button id="submit" onclick="checkGuess()">Submit</button>
+            <button id="hint-button" onclick="showHint()">Hint</button>
         </div>
         <p id="result"></p>
-        <p id="hint"></p>
         <div id="play-again" style="display: none;">
-            <input type="text" id="play-again-input" placeholder="Play again? (yes or no)">
-            <p id="error-message"></p>
+            <input type="text" id="play-again-input">
+            <button onclick="playAgain()">Submit</button>
         </div>
     </div>
     <script src="script.js"></script>
