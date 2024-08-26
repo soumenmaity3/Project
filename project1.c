@@ -17,7 +17,7 @@ void numbergen() {
 
 void showAnswer() {
     printf("The answer is %d\n", randomInRange);
-    printf("Thank you for playing this game...");
+    printf("Thank you for playing this game....");
     exit(0);
 }
 
