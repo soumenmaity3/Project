@@ -43,7 +43,7 @@ function checkGuess() {
     } else if (guess > randomNumber) {
         result.textContent = `Enter a lower number. Attempts: ${attempts}/${maxAttempts}`;
     } else {
-        result.textContent = `Congrats! You guessed the right number in ${attempts}/${maxAttempts} attempts!\nPlay again? (yes or no)`;
+        result.textContent = `Congrats! You guessed the right number is ${randomNumber} in ${attempts}/${maxAttempts} attempts!\nPlay again? (yes or no)`;
         endGame();
         return;
     }
