@@ -1,5 +1,5 @@
 
-import java.util.Scanner;
+import java.util.*;
 // import javax.crypto.Mac;
 
 class mystack {
