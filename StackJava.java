@@ -45,7 +45,7 @@ class mystack {
     }
 }
 
-class project5 {
+class StackJava{
 
     public static void main(String[] args) {
         int ch;
