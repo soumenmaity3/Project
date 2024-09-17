@@ -27,7 +27,7 @@ class mystack {
             System.out.println("Your stack is empty.");
         } else {
             n = stack[top];
-            System.out.println("Poped element is - " + n);
+            System.out.println("Poped element is -  " + n);
             top--;
         }
     }
