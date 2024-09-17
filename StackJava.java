@@ -32,7 +32,7 @@ class mystack {
         }
     }
 
-    int display() {
+    void display() {
         if (top == -1) {
             System.out.println("Your stack is empty.");
         } else {
@@ -41,7 +41,6 @@ class mystack {
                 System.out.println(stack[i]);
             }
         }
-        return 0;
     }
 }
 
