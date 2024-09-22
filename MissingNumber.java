@@ -4,7 +4,6 @@ import java.util.*;
  * let elements are=
  * 1
  * 2
- * 3
  * 4
  * 5
  * ***output****
